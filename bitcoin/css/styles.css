@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+li {
+  list-style-type: none;
+}
+
+header {
+  height: 800px;
+  width: 1920px;
+  background: url(../img/Layer_47.png);
+}
+.logo {
+  width: 63px;
+  height: 78px;
+  margin: 18px 12px 0px 390px;
+}
+.startpages {
+  display: flex;
+  align-items: flex-start;
+}
+h1 {
+  margin: 41px 35px 50px 15px;
+}
+.h1 {
+  color: #ffcf59;
+}
+.main {
+  width: 749px;
+  height: 13px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1.08px;
+  margin: 50px 35px 50px 15px;
+}
+.yellow_word {
+  color: #ffcf59;
+  text-decoration: none;
+}
+.letter {
+  text-decoration: none;
+  color: #ffffff;
+}
+.square {
+  display: flex;
+  width: 488px;
+  height: 287px;
+  margin: 278px 1042px 235px 390px;
+  border: 3px solid #ffffff;
+}
+.white_square {
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+.square_word {
+  color: #ffcf59;
+}
+.firstword {
+  padding: 46px 164px 10px 98px;
+}
+.secondword {
+  padding: 10px 108px 10px 98px;
+}
+.button {
+  margin: 25px 1217px 39px 98px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffcf59;
+  text-decoration: none;
+  border: 3px solid #ffcf59;
+  border-radius: 20px;
+  padding: 18px 66px 19px 66px;
+  display: flex;
+}
+/* .downdots1 {
+  margin: 760px 995px 31px 916px;
+} */
+.section2line {
+  margin: 15px 928px 23px 928px;
+}
+.headgraph {
+  width: 253px;
+  height: 41px;
+  margin: 76px 884px 10px 883px;
+  font-weight: 400;
+}
+.maingraph {
+  margin: 63px 385px 10px 405px;
+}
+.buttons {
+  background: url(../img/Layer_51.png);
+  width: 1920px;
+  height: 900px;
+}
+.headbuttons {
+  width: 253px;
+  height: 41px;
+  margin: 76px 884px 10px 883px;
+  font-weight: 400;
+  color: #fefeff;
+  padding-top: 90px;
+}
+footer {
+  width: 1920px;
+  height: 498px;
+  background-image: url(../img/layer_53.png);
+}
+.emblems1 {
+  margin: 212px 45px 10px 569px;
+}
+.emblems2 {
+  margin: 212px 50px 10px 50px;
+}
+.emblems3 {
+  margin: 212px 55px 10px 55px;
+}
+.emblems4 {
+  margin: 212px 10px 10px 42px;
+}
