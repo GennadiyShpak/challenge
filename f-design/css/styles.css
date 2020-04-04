@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 142px;
+    height: 35px;
+    padding: 53px 889px 10px 889px;
+}
+
+h1 {
+    width: 784px;
+    height: 50px;
+    margin: 213px 569px 10px 567px;
+    font-family: tahoma;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1.02px;
+    color: #131313;
+}
+
+.solution {}
