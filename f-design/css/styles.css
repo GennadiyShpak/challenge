@@ -1,24 +1,244 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1920px;
+  height: 2354px;
 }
 
 header {
-    width: 142px;
-    height: 35px;
-    padding: 53px 889px 10px 889px;
+  width: 142px;
+  height: 35px;
+  padding: 53px 889px 10px 889px;
 }
 
 h1 {
-    width: 784px;
-    height: 50px;
-    margin: 213px 569px 10px 567px;
-    font-family: tahoma;
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: 1.02px;
-    color: #131313;
+  width: 784px;
+  height: 50px;
+  margin: 213px 569px 10px 567px;
+  font-family: tahoma;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 1.02px;
+  color: #131313;
 }
 
-.solution {}
+li {
+  list-style-type: none;
+  display: grid;
+  justify-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.solution {
+  width: 615px;
+  color: #131313;
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 14px 652px 0px 653px;
+}
+
+.Lorem {
+  font-family: 'Tahoma - Bold';
+  font-weight: 700;
+}
+
+.main1 {
+  width: 1925px;
+  height: 405px;
+}
+
+.new {
+  margin: 0px 740px 0px 740px;
+  width: 740px;
+}
+
+.order {
+  width: 246px;
+  height: 66px;
+  background-image: url(../img/rectangle.png);
+  padding: 20px 36px 25px 52px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  margin: 36px 10px 10px 708px;
+}
+
+.textbutton {
+  padding: 20px 36px 25px 52px;
+}
+
+.more {
+  width: 246px;
+  height: 66px;
+  border-radius: 5px;
+  border: 1px solid #131313;
+}
+
+.services {
+  width: 1925px;
+  height: 866px;
+  background-color: #efefef;
+}
+
+h2 {
+  color: #030303;
+  font-family: Tahoma;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.ourservices {
+  padding: 91px 820px 10px 836px;
+}
+
+.list {
+  padding-top: 76px;
+  padding-bottom: 72px;
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 46px;
+  row-gap: 65px;
+}
+
+.imageservice {
+  padding-bottom: 18px;
+}
+
+.h3services {
+  padding-bottom: 19px;
+}
+
+.loremservices {
+  text-align: center;
+  color: #030303;
+  font-family: Tahoma;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.3px;
+}
+
+.link {
+  padding: 72px 852px 108px 851px;
+  color: #275fe0;
+}
+
+.advantages {
+  padding: 90px 655px 10px 655px;
+}
+
+.advantagesmenu {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 330px);
+  grid-template-rows: repeat(3, 83px);
+  column-gap: 450px;
+  grid-auto-flow: column;
+  row-gap: 38px;
+  padding-left: 450px;
+}
+
+.main2 {
+  height: 625px;
+  background-image: url(../img/iphone-hand-3.png);
+  background-repeat: no-repeat;
+  background-position: 792px 127px;
+}
+
+.child {
+  display: grid;
+  grid-template-columns: 31px 228px;
+  column-gap: 21px;
+}
+
+.q {
+  width: 31px;
+  height: 23px;
+  opacity: 0.48;
+  color: #030303;
+  font-family: Tahoma;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.w {
+  width: 230px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  color: #030303;
+  font-family: Tahoma;
+}
+
+.e {
+  width: 279px;
+  height: 39px;
+  opacity: 0.76;
+  color: #030303;
+  font-family: Tahoma;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.q:nth-child(1) {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+}
+
+.w:nth-child(2) {
+  grid-column-start: 2;
+}
+
+.e:nth-child(3) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.menuitems {
+  width: 290px;
+}
+
+footer {
+  width: 1925px;
+  height: 133px;
+  background-color: #efefef;
+}
+
+.ftr {
+  display: grid;
+  grid-template-columns: 135px 142px 165px;
+  column-gap: 90px;
+  padding-left: 686px;
+}
+
+.downpage {
+  padding-top: 49px;
+}
+
+.foot {
+  padding-top: 55px;
+}
